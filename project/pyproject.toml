@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-tdd-docker"
+version = "0.1.0"
+description = "Restful APIs using FASTAPI"
+authors = ["Harold Mendoza <slu.mendozaharold@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "0.63.0"
+uvicorn = "0.13.4"
+python-dotenv = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
